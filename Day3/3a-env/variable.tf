@@ -17,12 +17,12 @@ variable "rg_prefix" {
 
 variable "st_prefix" {
   type  = string
-  default = "st68"
+  default = "st"
 }
 
 variable "sb_prefix" {
   type  = string
-  default = "sb68"
+  default = "sb"
 }
 
 variable "env" {
@@ -45,3 +45,4 @@ variable "location" {
   type  = string
   default = "eastus"
 }
+
